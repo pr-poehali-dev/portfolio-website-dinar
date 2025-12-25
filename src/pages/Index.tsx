@@ -74,8 +74,12 @@ const Index = () => {
       <section id="home" className="section pt-32 bg-gradient-to-b from-muted/30 to-background">
         <div className="container mx-auto max-w-6xl">
           <div className="flex flex-col md:flex-row items-center gap-12">
-            <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-primary shadow-2xl flex-shrink-0 bg-muted flex items-center justify-center">
-              <Icon name="User" size={120} className="text-muted-foreground" />
+            <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-primary shadow-2xl flex-shrink-0 bg-muted">
+              <img 
+                src="https://cdn.poehali.dev/files/photo_2025-12-23_00-55-52.jpg" 
+                alt="Динар Закиров" 
+                className="w-full h-full object-cover"
+              />
             </div>
             <div className="flex-1 text-center md:text-left">
               <h1 className="text-5xl md:text-7xl font-bold text-primary mb-4">
