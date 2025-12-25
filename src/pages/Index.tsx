@@ -82,9 +82,16 @@ const Index = () => {
               />
             </div>
             <div className="flex-1 text-center md:text-left">
-              <h1 className="text-5xl md:text-7xl font-bold text-primary mb-4">
-                Динар Закиров
-              </h1>
+              <div className="flex items-center justify-center md:justify-start gap-4 mb-4">
+                <img 
+                  src="https://cdn.poehali.dev/files/Logo-YUUrGTK-200.png" 
+                  alt="ЮУрГТК" 
+                  className="w-16 h-16 md:w-20 md:h-20 object-contain"
+                />
+                <h1 className="text-5xl md:text-7xl font-bold text-primary">
+                  Динар Закиров
+                </h1>
+              </div>
               <p className="text-xl md:text-2xl text-muted-foreground mb-6 leading-relaxed">
                 Студент Южно-Уральского государственного технического колледжа
               </p>
